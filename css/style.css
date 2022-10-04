@@ -390,6 +390,7 @@ img {
 
 .form-input.comment {
     padding: 12px 16px;
+    resize: none;
 }
 
 .form-input:focus {
@@ -432,6 +433,7 @@ img {
 }
 
 .checkbox-icon {
+    display: inline-block ;
     margin-right: 8px;
     display: inline-block;
     width: 16px;
@@ -443,8 +445,8 @@ img {
 
 .checkbox:checked + .checkbox-icon {
     border-color: transparent;
-    /* background-color: var(--accent-bg-cl); */
-    background-image: url(../images/sprite.svg#icon-check);
+    /* background-color: var(--accent-bg-cl);  */
+    background-image: url(../images/icon-check2.svg);
     background-size: contain;
     background-origin: border-box;
 }
